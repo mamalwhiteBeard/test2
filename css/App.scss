@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'myfont';
+  src: url('../fonts/IRANSansWeb.ttf') format('tff')  , url('../fonts/IRANSansWeb.woff') format('woff');
+}
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+  font-family: myfont;
+}
+
+.clear {
+  clear:both;
+}
+body , html {
+  direction:rtl;
+  height: 100%;
+
+}
+
+$colorzard:#e6e600;
+/* reset css*/
+

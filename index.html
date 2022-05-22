@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>تمرین جاوا اسکریپ | فرم ثبت نام </title>
+    <link rel="shortcut icon" href="img/favicon.ico" title="Favicon" />
+    <link href="css/line-awesome.css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/App.css" rel="stylesheet"/>
+<!--    <script src="js/jquery-3.4.1.min.js"></script>-->
+<!--    <script src="js/popper.min.js"></script>-->
+<!--    <script src="js/bootstrap.min.js"></script>-->
+
+<style>
+
+</style>
+</head>
+<body>
+    <div class="container col-sm-12 mt-4 ">
+        <form class="form-inline p-4">
+            <label>نام محصول :</label>
+            <input id="name" type="text" class="form-control" required>
+            <label>قیمت</label>
+            <input id="price" type="number" class="form-control" required>
+            <button type="button" class="btn btn-primary " onclick="addmahsol()">add</button>
+
+        </form>
+        <div class="text-center">
+        <button type="button" class="btn btn-success  mt-4 w-25" onclick=f1();>enter</button>
+        </div>
+        <div class="jumbotron mt-5 p-4">
+            <canvas id="ca" width="500px" height="500px" style="margin-right: 374px"></canvas>
+            <div id="legend"></div>
+        </div>
+    </div>
+</body>
+
+<script src="js/custom.js"></script>
+</html>
